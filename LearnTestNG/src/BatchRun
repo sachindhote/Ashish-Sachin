@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Smoke">
+  <test name="Iteration1">
+    <groups>
+    	<run>
+    		<include name="Sanity"/>
+    	</run>
+    	<classes>
+      		<class name="BeforeAndAfter_TestAndMethod_Annotations.BeforeAfterClassAnnotation"/>
+      		<class name="BeforeAndAfter_TestAndMethod_Annotations.BeforeAfterMethodAnnotation"/>
+      		<class name="BeforeAndAfter_TestAndMethod_Annotations.TestNGFile"/>
+    	</classes>
+    </groups>
+    	
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
