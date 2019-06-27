@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestNGLIstnerSuite" parallel="false">
+	  <listeners>
+	  	<listener class-name="Listners.Listners" />
+	  </listeners>
+	  
+  <test name="NewTest">
+    <classes>
+      <class name="Listners.NewTest">
+      		<methods>
+      			<include name="floginByEmail"/>
+      			<include name="loginByFacebook"/>
+      		</methods>
+      </class>	
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

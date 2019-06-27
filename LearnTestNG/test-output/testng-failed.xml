@@ -3,15 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BeforeAndAfter_TestAndMethod_Annotations.BeforeAfterMethodAnnotation">
+      <class name="Listners.ListnerImplements">
         <methods>
-          <include name="verifyYahooTitle"/>
-          <include name="verifyGoogleTitle"/>
-          <include name="closeBrowser"/>
-          <include name="verifygcrShopTitle"/>
-          <include name="launchBrowser"/>
+          <include name="adminLogin"/>
+          <include name="customerRegisterGCR"/>
+          <include name="InvalidAdminLogin"/>
+          <include name="customerLoginGCRSHop"/>
         </methods>
-      </class> <!-- BeforeAndAfter_TestAndMethod_Annotations.BeforeAfterMethodAnnotation -->
+      </class> <!-- Listners.ListnerImplements -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
